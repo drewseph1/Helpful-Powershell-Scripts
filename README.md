@@ -2,10 +2,10 @@
 Powershell scripts that allow me to focus more on the things I enjoy 
 
 <h3>Convert n Extract</h3>
-<p> Searches for any file extensions that you specify and, upon finding one, will extract the contents within the directory recursively into a folder with the same name.  I use this a lot for vetting source code in order to ensure file traversing is possible with OSS scanners.</p>
+<p>Searches for any file extensions that you specify and, upon finding one, will extract the contents within the directory recursively into a folder with the same name.  I use this a lot for vetting source code in order to ensure file traversing is possible with OSS scanners.</p>
   
 <h3> NSG Export</h3>
-<p> Exports all Network Security Groups from an Azure subscription and displays the below information:</p>
+<p>Exports all Network Security Groups from an Azure subscription and displays the below information:</p>
 <table>
   <tr>
     <td>Network Security Group Name</td>
