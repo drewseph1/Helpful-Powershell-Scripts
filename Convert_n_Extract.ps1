@@ -8,7 +8,6 @@ Function Unzip {
 Param([Parameter(ValueFromPIpeline)]
 $fileInfo
 )
-    #Write-Host("Name:$($fileInfo.FullName)")
     Write-Host("Extracting $($fileInfo.FullName) to $($fileInfo.Directory)")
     Set-Location -Path $fileInfo.Directory #Same thing as cd XXXX.  Had to in order for expanded .zips to go to zip location
     Expand-Archive -Path $fileInfo.FullName #Open the zip and place it's contents
@@ -50,8 +49,3 @@ Get-ChildItem -Path $full_path -Include *.zip,*ear,*war -Recurse |
 }
 
 } while(Get-ChildItem -Path $full_path -Include *zip, *ear, *war -Recurse)
-
-
-
-
-
