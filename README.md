@@ -3,7 +3,7 @@ Powershell scripts that allow me to focus more on the things I enjoy
 
 <h3>Vuln Formatter</h3>
 <p>Vuln Formatter reads in a CSV export containing vulnerabiltiy data from a scanning tool and outputs each vulnerability as outlined below.  The script will create one text document per component identified by the scanner.  The end goal is to find a way to create these vulns automaically within the script itself rather than having to copy/paste, but I'm thrilled at what I've got up to this point as it already saves me a lot of time with removing the formatting piece.  I will certainly update this as I progress in it's development!</p>
-<h1>Formatting</h1>
+<h6>Formatting</h6>
 <p>Vulnerabilty Identifier:Vulnerabiltiy Description. Remediation Version</p>
 
 <h3>Convert n Extract</h3>
